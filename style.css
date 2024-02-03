@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+}
+.main {
+  width: 100vw;
+  height: 100vh;
+}
+.center {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+.first form {
+  width: 100%;
+  display: flex;
+}
+.first input {
+  width: 80%;
+  padding: 10px 0;
+}
+.first button {
+  width: 20%;
+  background-color: green;
+  color: aliceblue;
+  border: none;
+}
+.second {
+  width: 100%;
+}
+.first table {
+  width: 100%;
+}
+.second img {
+  width: 600px;
+  height: 200px;
+}
+.second tr {
+  background-color: antiquewhite;
+}
+.second tr:nth-child(odd) {
+  background-color: aliceblue;
+}
+.second tr td {
+  padding: 10px;
+}
